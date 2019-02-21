@@ -1,7 +1,7 @@
 # Личный проект «Киноман» [![Build status][travis-image]][travis-url]
 
 * Студент: [Ирина Романова](https://up.htmlacademy.ru/ecmascript/8/user/635997).
-* Наставник: `Неизвестно`.
+* Наставник: `Кексобот`.
 
 ---
 
