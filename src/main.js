@@ -15,6 +15,7 @@ const filters = {
 
 const mainNavBlock = document.querySelector(`.main-navigation`);
 const filmsCardsBlock = document.querySelector(`.films-list__container`);
+const extraFilmsCardsBlocks = document.querySelectorAll(`.films-list--extra`);
 
 const getRandomFixValue = ((minValue, maxValue) => Math.floor(Math.random() * (maxValue - minValue + 1)) + minValue);
 
@@ -67,3 +68,6 @@ const onFilterLabelClickHandler = ((evt) => {
 
 renderCards(COUNT_CARDS, filmsCardsBlock);
 renderFilters(mainNavBlock, filters);
+renderCards(2, extraFilmsCardsBlocks[0].children[1]);
+renderCards(2, extraFilmsCardsBlocks[1].children[1]);
+
